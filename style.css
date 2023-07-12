@@ -101,28 +101,28 @@ img {
 .box-header-1 {
     background-color: var(--Cyan);
     height: 5px;
-    width: 275px;
+    width: 290px;
     border-radius: 10px 10px 0 0;
 }
 
 .box-header-2 {
     background-color: var(--Red);
     height: 5px;
-    width: 275px;
+    width: 290px;
     border-radius: 10px 10px 0 0;
 }
 
 .box-header-3 {
     background-color: var(--Orange);
     height: 5px;
-    width: 275px;
+    width: 290px;
     border-radius: 10px 10px 0 0;
 }
 
 .box-header-4 {
     background-color: var(--Blue);
     height: 5px;
-    width: 275px;
+    width: 290px;
     border-radius: 10px 10px 0 0;
 }
 
@@ -141,9 +141,7 @@ img {
 }
 
 @media screen and (min-width: 800px){
-    body {
-        /* height: 100vh; */
-    }
+    
     .container {
         display: flex;
         flex-direction: row;
@@ -174,10 +172,6 @@ img {
     .boxes {
         display: flex;
         flex-direction: row;
-    }
-
-    .box {
-        /* padding: 15px; */
     }
 
     .box-1, .box-4 {
